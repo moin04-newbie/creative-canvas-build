@@ -44,6 +44,7 @@ All colors MUST be HSL.
     --brand-cream: 40 40% 97%;
     --brand-dark: 0 0% 4%;
     --brand-gray: 0 0% 60%;
+    --brand-sage: 150 20% 60%;
     
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(24 100% 63%), hsl(5 100% 70%));
