@@ -43,7 +43,7 @@ export const Header = () => {
       {/* Full-screen menu modal */}
       <div
         className={`fixed inset-0 z-[100] bg-background transition-transform duration-700 ${
-          menuOpen ? "translate-y-0" : "-translate-y-full"
+          menuOpen ? "translate-y-0" : "-translate-y-full pointer-events-none"
         }`}
       >
         <div className="container mx-auto px-6 py-4">
