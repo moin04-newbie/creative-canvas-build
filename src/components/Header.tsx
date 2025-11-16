@@ -9,7 +9,7 @@ export const Header = () => {
 
   const menuItems = [
     { label: "HOME", href: "/" },
-    { label: "ABOUT", href: "/#about" },
+    { label: "ABOUT", href: "/about" },
     { label: "SERVICES", href: "/#services" },
     { label: "PROJECTS", href: "/#projects" },
     { label: "CONTACT", href: "/contact" },
@@ -74,6 +74,7 @@ export const Header = () => {
               className={`text-5xl md:text-7xl font-bold transition-all duration-300 hover:text-primary ${
                 item.accent ? "text-gradient" : ""
               }`}
+              activeClassName="text-brand-orange"
               style={{
                 animation: menuOpen ? `fade-in-up 0.6s ease-out ${index * 0.1}s both` : "none",
               }}
