@@ -10,7 +10,7 @@ export const Header = () => {
   const menuItems = [
     { label: "HOME", href: "/" },
     { label: "ABOUT", href: "/about" },
-    { label: "SERVICES", href: "/services" },
+    { label: "SERVICES", href: "/#services" },
     { label: "PROJECTS", href: "/projects" },
     { label: "CONTACT", href: "/contact" },
     { label: "WE'RE HIRING", href: "/careers", accent: true },
