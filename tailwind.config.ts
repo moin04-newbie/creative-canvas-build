@@ -5,6 +5,11 @@ export default {
   content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
   prefix: "",
   theme: {
+    extend: {
+      animation: {
+        'spin-slow': 'spin 8s linear infinite',
+      },
+    },
     container: {
       center: true,
       padding: "2rem",
